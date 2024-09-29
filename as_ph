@@ -1,0 +1,72 @@
+//Author: Ritu Lahkar
+//Tribute to: অসমীয়া ভাষা
+//Basic assamese layout
+default  partial alphanumeric_keys
+xkb_symbols "basic" {
+   name[Group1]= "Assamese phonetic";
+   key <ESC>  { [ Escape ] };
+
+// numbers
+   key <TLDE> { [ grave,	asciitilde,	voidsymbol,	voidsymbol ] };
+   key <AE01> { [ U09E7,    U0021,    U0031,    voidsymbol ] };
+   key <AE02> { [ U09E8,    U0040,    U0032,    voidsymbol ] };
+   key <AE03> { [ U09E9,    U0023,    U0033,    voidsymbol ] };
+   key <AE04> { [ U09EA,    U0024,    U0034,    U20B9 ] };
+   key <AE05> { [ U09EB,    U0025,    U0035,    voidsymbol ] };
+   key <AE06> { [ U09EC,    U005E,    U0036,    voidsymbol ] };
+   key <AE07> { [ U09ED,    U0026,    U0037,    voidsymbol ] };
+   key <AE08> { [ U09EE,    U002A,    U0038,    voidsymbol ] };
+   key <AE09> { [ U09EF,    U0028,    U0039,    voidsymbol ] };
+   key <AE10> { [ U09E6,    U0029,    U0030,    voidsymbol ] };
+   key <AE11> { [ minus,	underscore,	0x100200C,	voidsymbol ] };
+   key <AE12> { [ equal,	plus,		0x100200D,	voidsymbol ] };
+   key <BKSP> { [ BackSpace ] };
+
+// tab, q to ] 
+   key <TAB>  { [ Tab,  ISO_Left_Tab ] };
+   key <AD01> { [ U02BC,    U09C3,    {U09F0,U09CD},    voidsymbol ] };
+   key <AD02> { [ U09F1,    U0981,    voidsymbol,    voidsymbol ] };
+   key <AD03> { [ U098F,    U0990,    U09C7,    U09C8 ] };
+   key <AD04> { [ U09F0,    U098B,    {U09CD,U09F0},    U09C3 ] };
+   key <AD05> { [ U09A4,    U099F,    U09A0,    U09A5 ] };
+   key <AD06> { [ U09AF,    U09DF,    voidsymbol,    voidsymbol ] };
+   key <AD07> { [ U0989,    U098A,    U09C1,    U09C2 ] };
+   key <AD08> { [ U0987,    U0988,    U09BF,    U09C0 ] };
+   key <AD09> { [ U0993,    U0994,    U09CB,    U09CC ] };
+   key <AD10> { [ U09AA,    U09CC,    U09CC,    voidsymbol ] };
+   key <AD11> { [ bracketleft,	braceleft,	voidsymbol,	voidsymbol ] };
+   key <AD12> { [ bracketright,	braceright,	voidsymbol,	voidsymbol ] };
+   key <RTRN> { [ Return ] };
+
+// caps, a to ' 
+// key <CAPS> { [ Caps_Lock ] };
+   key <AC01> { [ U0985,    U0986,    U09CD,    U09BE ] };
+   key <AC02> { [ U09B8,    U09B7,    U09B6,    voidsymbol ] };
+   key <AC03> { [ U09A1,    U09A6,    U09A2,    U09A7 ] };
+   key <AC04> { [ U09AB,    U09C8,    voidsymbol,    voidsymbol ] };
+   key <AC05> { [ U0997,    U0998,    U0999,    U0982 ] };
+   key <AC06> { [ U09B9,    voidsymbol,    U0982,    voidsymbol ] };
+   key <AC07> { [ U099C,    U099D,    U09C0,    voidsymbol ] };
+   key <AC08> { [ U0995,    U0996,    {U0995,U09CD,U09B7},    voidsymbol ] };
+   key <AC09> { [ U09B2,    U0995,    U09CD,    voidsymbol ] };
+   key <AC10> { [ U003B,    U003A,    voidsymbol,    voidsymbol ] };
+   key <AC11> { [ U0027,    U201C,    voidsymbol,    voidsymbol ] };
+
+// shift, z to /
+// key <LFSH> { [ Shift_L ] };
+   key <AB01> { [ U09DC,    U09DD,    U09BC,    voidsymbol ] };
+   key <AB02> { [ U09CE,    U0983,    U0981,    voidsymbol ] };
+   key <AB03> { [ U099A,    U099B,    U09A7,    voidsymbol ] };
+   key <AB04> { [ U09AD,    U09A5,    U09C2,    voidsymbol ] };
+   key <AB05> { [ U09AC,    U09BE,    U09BE,    voidsymbol ] };
+   key <AB06> { [ U09A8,    U09A3,    U099E,    voidsymbol ] };
+   key <AB07> { [ U09AE,    U09B7,    voidsymbol,    voidsymbol ] };
+   key <AB08> { [ U002C,    U003C,    U0964,    voidsymbol ] };
+   key <AB09> { [ U002E,    U003E,    U0965,    voidsymbol ] };
+   key <AB10> { [ U2044,	U003F,	voidsymbol,	voidsymbol ] };
+   key <BKSL> { [ backslash,	bar,		voidsymbol,	voidsymbol ] };
+
+// third level with right-Alt
+    include "level3(ralt_switch)"
+
+};
