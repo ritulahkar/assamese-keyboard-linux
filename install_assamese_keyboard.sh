@@ -1,7 +1,7 @@
 #!/bin/bash
 
-# Assamese as_ph Phenotypic Keyboard Layout Installer
-# This script automatically installs the Assamese phenotypic keyboard layout
+# Assamese as_ph Phonetic Keyboard Layout Installer
+# This script automatically installs the Assamese phonetic keyboard layout
 
 set -e  # Exit on any error
 
@@ -194,7 +194,7 @@ show_completion_message() {
 # Main installation function
 main() {
     echo "============================================="
-    echo "Assamese as_ph Phenotypic Keyboard Installer"
+    echo "Assamese as_ph Phonetic Keyboard Installer"
     echo "============================================="
     echo
     

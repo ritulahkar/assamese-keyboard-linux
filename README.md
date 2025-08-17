@@ -2,13 +2,13 @@
 
 Free Assamese keyboard layout for Linux
 
-## Example of the Assamese as_ph Phenotypic Layout
+## Example of the Assamese as_ph Phonetic Layout
 
 ![image](/img/as_ph_layout_pic.png)
 
 ## Installation
 
-You can install the Assamese `as_ph` (phenotypic) keyboard layout using either the automated installer script or manual installation.
+You can install the Assamese `as_ph` (phonetic) keyboard layout using either the automated installer script or manual installation.
 
 ### Option 1: Automated Installation (Recommended)
 
